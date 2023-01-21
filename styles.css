@@ -34,7 +34,7 @@ a {
 }
 
 .navbar-center ul li {
-    display: inline-block;
+    display: flex;
     list-style: none;
 }
 
@@ -53,7 +53,7 @@ a {
 
 .navbar-center ul li a::after {
     content: '';
-    width: 100%;
+    width: 0%;
     height: 2px;
     background: #045be6;
     position: absolute;
@@ -61,7 +61,8 @@ a {
     transition: width 0.3s;
 }
 
-.navbar-center ul li a:hover::after {
+.navbar-center ul li a:hover::after,
+.navbar-center ul li a.active-link::after {
     width: 100%;
 }
 
