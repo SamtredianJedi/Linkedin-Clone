@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Linkedin Clone</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="./index.html" class="logo"><img src="./src/images/logo.png"></a>
+            <div class="search-box">
+                <img src="./src/images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li>
+                    <a href="#" class="active-link"><img src="./src/images/home.png"><span>Home</span></a>
+                    <a href="#"><img src="./src/images/network.png"><span>My Network</span></a>
+                    <a href="#"><img src="./src/images/jobs.png"><span>Jobs</span></a>
+                    <a href="#"><img src="./src/images/message.png"><span>Messaging</span></a>
+                    <a href="#"><img src="./src/images/notification.png"><span>Notifications</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="online">
+
+                <img src="./src/images/user-1.jpg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+
+        <!-- profile-drop-down-menu -->
+
+        <!-- <div class="profile-menu-wrap">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="./src/images/user-1.jpg">
+                    <div>
+                        <h3>Rezo Xuchua</h3>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </nav>
+
+
+    <!-- 
+    navbar close -->
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+
+    <!-- <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+            <div class="user-info">
+                <img src="./src/images/user-1.jpg">
+                <div>
+                    <h3>Rezo Xuchua</h3>
+
+                    <a href="#" class="link-name">See Your Profile</a>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="profile-menu-link">
+                <img src="./src/images/feedback.png">
+                <p>Give Feedback</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="./src/images/setting.png">
+                <p>Settings & Privacy</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="./src/images/help.png">
+                <p>Help & Support</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="./src/images/display.png">
+                <p>Display & Accessibility</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="./src/images/logout.png">
+                <p>Logout</p>
+                <span>></span>
+            </a>
+        </div>
+    </div> -->
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="./src/images/cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="./src/images/user-1.jpg" class="profile-pic">
+                    <h1>Rezo Xuchua</h1>
+                    <b>Web Developer at Microsoft | Former Java Developer
+                        and intern at Oracle
+                    </b>
+                    <p>California, United States &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="./src/images/user-2.png">
+                        <span>1 mutual connection: Orlando Giggs</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="./src/images/connect.png">Connect</a>
+                        <a href="#"><img src="./src/images/chat.png">Message</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum aut illum cumque odit minima, dolor voluptatibus. Odio ipsa ab iusto soluta?</p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="./src/images/microsoft.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; full-time</b>
+                        <b>Feb 2021 - Present &middot; 1.5 years</b>
+                        <p>Computer programming is a process of performing a particular computation, usually by designing and building an executable computer program.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="./src/images/slack.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>slack &middot; full-time</b>
+                        <b>Feb 2021 - Present &middot; 3 years</b>
+                        <p>Computer programming is a process of performing a particular computation, usually by designing and building an executable computer program.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="./src/images/google.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Google inc. &middot; full-time</b>
+                        <b>Feb 2021 - Present &middot; 4 years</b>
+                        <p>Computer programming is a process of performing a particular computation, usually by designing and building an executable computer program.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!--------- profile-sidebar --------->
+        <div class="profile-sidebar"></div>
+
+</body>
+
+</html>
