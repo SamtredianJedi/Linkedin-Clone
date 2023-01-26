@@ -598,7 +598,7 @@ a {
     flex-basis: 25%;
     align-self: flex-start;
     position: sticky;
-    top: 73%;
+    top: 73px;
 }
 
 .profile-container {
